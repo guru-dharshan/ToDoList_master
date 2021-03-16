@@ -9,13 +9,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:hint="enter your task"
+    android:hint="@string/add_task_hint"
     android:id="@+id/taskid"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Priority"
+        android:text="@string/priority"
         android:layout_marginStart="16dp"
         android:textStyle="bold"
         android:textSize="18sp"/>
@@ -31,7 +31,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No Date"
+        android:text="@string/no_date"
         android:id="@+id/iddate"
         android:layout_marginStart="16dp"
         android:textStyle="bold"
@@ -49,14 +49,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="no date"
+            android:text="@string/no_date_radio"
             android:id="@+id/radioButton1"
             android:textSize="12dp" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="select a date"
+            android:text="@string/select_date_radio"
             android:id="@+id/radioButton2"
             android:layout_marginStart="8dp"
             android:textSize="12dp"
@@ -74,6 +74,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:text="add" />
+        android:text="@string/add_button" />
 </LinearLayout>
 </LinearLayout>

@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.RadioGroup;
 
+
 import com.devgd.todolist.databinding.ActivityAddTaskBinding;
 
 import java.text.DateFormat;
@@ -31,7 +32,7 @@ public class AddTask extends AppCompatActivity implements DatePickerDialog.OnDat
 
 
         //spinner
-        String[] prioritylist = { "high", "medium", "low"};
+        String[] prioritylist = {"high", "medium", "low"};
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, R.layout.textspinnerlayout, prioritylist);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_expandable_list_item_1);
         binding.spinnerid.setAdapter(dataAdapter);
@@ -41,7 +42,7 @@ public class AddTask extends AppCompatActivity implements DatePickerDialog.OnDat
         Intent intent=getIntent();
         if(intent.getStringExtra("task")!=null){
             // update button
-            binding.idadd.setText("update");
+            binding.idadd.setText(R.string.update_button);
             id=intent.getIntExtra("id",0);
 
 

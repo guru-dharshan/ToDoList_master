@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="add_task_hint">ajouter une tâche</string>
+    <string name="priority">priorité</string>
+    <string name="no_date">Pas de date</string>
+    <string name="no_date_radio">Pas de date</string>
+    <string name="select_date_radio">sélectionnez une date</string>
+    <string name="add_button">ajouter</string>
+    <string name="update_button">mettre à jour</string>
+    <string name="priority_high">haut</string>
+    <string name="priority_medium">haut</string>
+    <string name="priority_low">faible</string>
+</resources>

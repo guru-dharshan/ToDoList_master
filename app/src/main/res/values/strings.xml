@@ -1,5 +1,19 @@
 <resources>
     <string name="app_name">ToDoList</string>
-    <string name="appwidget_text">EXAMPLE</string>
-    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text" translatable="false">EXAMPLE</string>
+    <string name="add_widget" translatable="false">Add widget</string>
+
+    <!-- add/update task -->
+    <string name="add_task_hint">enter your task</string>
+    <string name="priority">Priority</string>
+    <string name="no_date">No Date</string>
+    <string name="no_date_radio">no date</string>
+    <string name="select_date_radio">select a date</string>
+    <string name="add_button">Add</string>
+    <string name="update_button">update</string>
+    <string name="priority_high">high</string>
+    <string name="priority_medium">medium</string>
+    <string name="priority_low">low</string>
+
+
 </resources>
