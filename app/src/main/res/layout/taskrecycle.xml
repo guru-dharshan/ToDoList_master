@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layouttask"
+    android:layout_marginBottom="16dp">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/cardrecycle">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_baseline_star_24"
+        android:id="@+id/starrecycle"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/taskrecycle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24/02/2020"
+            android:textColor="@color/black"
+
+            android:layout_marginTop="38dp"
+            android:textSize="12sp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/daterecycle"/>
+
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/checkrecyele"
+            >
+        </CheckBox>
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

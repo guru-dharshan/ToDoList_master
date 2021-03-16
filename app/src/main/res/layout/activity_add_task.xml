@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddTask">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:hint="enter your task"
+    android:id="@+id/taskid"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priority"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textAlignment="gravity"
+        android:gravity="left"
+     android:id="@+id/spinnerid"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Date"
+        android:id="@+id/iddate"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no date"
+            android:id="@+id/radioButton1"
+            android:textSize="12dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select a date"
+            android:id="@+id/radioButton2"
+            android:layout_marginStart="8dp"
+            android:textSize="12dp"
+            />
+    </RadioGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:gravity="bottom|end">
+    <Button
+        android:id="@+id/idadd"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="add" />
+</LinearLayout>
+</LinearLayout>
