@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_red"
     android:orientation="vertical"
     tools:context=".AddTask">
 <EditText
@@ -17,6 +18,8 @@
         android:layout_height="wrap_content"
         android:text="@string/priority"
         android:layout_marginStart="16dp"
+        android:textColor="@color/black"
+
         android:textStyle="bold"
         android:textSize="18sp"/>
 
@@ -34,6 +37,8 @@
         android:text="@string/no_date"
         android:id="@+id/iddate"
         android:layout_marginStart="16dp"
+        android:textColor="@color/black"
+
         android:textStyle="bold"
         android:textSize="18sp"/>
 
@@ -43,6 +48,7 @@
         android:layout_marginLeft="16dp"
         android:weightSum="1"
         android:orientation="horizontal"
+
         android:id="@+id/radioGroup"
         >
 
@@ -50,6 +56,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/no_date_radio"
+            android:textColor="@color/black"
+            android:buttonTint="@color/card_bg"
+            android:backgroundTint="@color/card_bg"
+
             android:id="@+id/radioButton1"
             android:textSize="12dp" />
 
@@ -58,7 +68,12 @@
             android:layout_height="wrap_content"
             android:text="@string/select_date_radio"
             android:id="@+id/radioButton2"
+            android:buttonTint="@color/card_bg"
+            android:backgroundTint="@color/card_bg"
+
             android:layout_marginStart="8dp"
+            android:textColor="@color/black"
+
             android:textSize="12dp"
             />
     </RadioGroup>

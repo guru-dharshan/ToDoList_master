@@ -122,8 +122,8 @@ public class MainActivity extends AppCompatActivity {
 //                PendingIntent pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 1, alarm, 0);
 //                AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
                 Calendar calendar = Calendar.getInstance();
-                calendar.set(Calendar.HOUR_OF_DAY, 15);
-                calendar.set(Calendar.MINUTE, 50);
+                calendar.set(Calendar.HOUR_OF_DAY, 1);
+                calendar.set(Calendar.MINUTE, 10);
                 calendar.set(Calendar.SECOND, 0);
                 calendar.set(Calendar.YEAR, year);
                 calendar.set(Calendar.MONTH, month);

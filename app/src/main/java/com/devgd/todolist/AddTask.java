@@ -32,7 +32,7 @@ public class AddTask extends AppCompatActivity implements DatePickerDialog.OnDat
 
 
         //spinner
-        String[] prioritylist = {"high", "medium", "low"};
+        String[] prioritylist = {"high","medium","low"};
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, R.layout.textspinnerlayout, prioritylist);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_expandable_list_item_1);
         binding.spinnerid.setAdapter(dataAdapter);

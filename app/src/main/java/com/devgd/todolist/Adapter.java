@@ -115,15 +115,15 @@ public class Adapter extends  RecyclerView.Adapter<Adapter.NoteHolder> {
        switch (priority){
            case "high":
                holder.priority.setImageResource(R.drawable.ic_baseline_star_red);
-               holder.cardView.setCardBackgroundColor(context.getResources().getColor(R.color.lightred));
+              holder.cardView.setCardBackgroundColor(context.getResources().getColor(R.color.card_bg));
                break;
            case "medium":
                holder.priority.setImageResource(R.drawable.ic_baseline_star_orange);
-               holder.cardView.setCardBackgroundColor(context.getResources().getColor(R.color.lightorange));
+               holder.cardView.setCardBackgroundColor(context.getResources().getColor(R.color.card_bg));
                break;
            case "low":
                holder.priority.setImageResource(R.drawable.ic_baseline_star_24);
-               holder.cardView.setCardBackgroundColor(context.getResources().getColor(R.color.lightyellow));
+               holder.cardView.setCardBackgroundColor(context.getResources().getColor(R.color.card_bg));
                break;
            default:
                Log.i("tag","priority error");

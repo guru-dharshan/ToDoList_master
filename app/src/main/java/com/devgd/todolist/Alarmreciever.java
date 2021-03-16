@@ -21,6 +21,7 @@ public class Alarmreciever extends BroadcastReceiver {
         String task=intent.getStringExtra("task_desc");
         String date=intent.getStringExtra("task_due");
         Notification notification=new NotificationCompat.Builder(context,CHANNEL_1_ID).setContentTitle("alarm")
+                .setColor(context.getResources().getColor(R.color.card_bg))
                 .setSmallIcon(R.drawable.ic_baseline_star_orange)
                 .setContentText(date)
                 .setContentTitle(task)
